@@ -1,7 +1,7 @@
 const BestScore = (props) => {
     return (
         <div>
-            <p><strong>Best Score: 10</strong></p>
+            <p><strong>Best Score: {props.bestScore}</strong></p>
         </div>
     );
 }

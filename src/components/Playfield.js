@@ -1,11 +1,13 @@
 import { data } from '../data.js';
 import '../styles/playfield.css';
 
+import Score from './Score';
 import Card from './Card';
 
 const Playfield = () => {
 	return (
 		<main>
+			<Score />
 			<div id='cards-grid'>
 				{data.map(card => 
 					<Card key={card.name} card={card} />

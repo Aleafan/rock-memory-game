@@ -1,8 +1,13 @@
 import Header from './components/Header';
+import Playfield from './components/Playfield'
 
 function App() {
+
   return (
-    <Header />
+    <div>
+      <Header />
+      <Playfield />
+    </div>
   );
 }
 

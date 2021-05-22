@@ -1,0 +1,16 @@
+.card {
+    border: 1px solid;
+    max-width: 250px;
+}
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px;
+}
+.card-pic {
+    width: 100%;
+    padding: 0.3rem;
+}
+.card p {
+    margin: 0.2rem 0 0.5rem;
+    text-align: center;
+}

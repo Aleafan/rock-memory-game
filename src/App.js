@@ -1,5 +1,6 @@
 import Header from './components/Header';
-import Playfield from './components/Playfield'
+import Playfield from './components/Playfield';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Header />
       <Playfield />
+      <Footer />
     </div>
   );
 }

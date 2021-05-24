@@ -1,0 +1,25 @@
+#scoreboard svg {
+    color: goldenrod;
+    margin-right: 5px;
+}
+#bestscore {
+    font-weight: bold;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    padding: 2px;
+    border-radius: 5px;
+}
+@keyframes bestScore {
+    25% {
+        box-shadow: 0 0 2px 4px gold;
+        color: goldenrod;
+    }
+    50% {
+        box-shadow: 0 0 0px 1px gold;
+
+    }
+    75% {
+        box-shadow: 0 0 2px 4px gold;
+        color: goldenrod;
+    }
+}

@@ -1,7 +1,15 @@
+import '../styles/bestscore.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrophy } from '@fortawesome/free-solid-svg-icons';
+
 const BestScore = (props) => {
+    <i class="fas fa-trophy"></i>
     return (
         <div>
-            <p><strong>Best Score: {props.bestScore}</strong></p>
+            <p id='bestscore' onAnimationIteration={props.stopAnimation}>
+                <FontAwesomeIcon icon={faTrophy} />
+                Best Score: {props.bestScore}
+            </p>
         </div>
     );
 }

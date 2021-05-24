@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { data } from '../data.js';
 import '../styles/playfield.css';
 
@@ -15,18 +15,23 @@ const Playfield = () => {
 	const handleClick = (e) => {
 		updateScore(e.currentTarget.id);
 		setCards(shuffle(cards));
+		setScrollY(window.scrollY);
 	}
-
 	function updateScore(card) {
+		const scoreDiv = document.getElementById('score');
 		if (clickedCards.includes(card)) {
 			if (score > bestScore) {
+				const bestScoreDiv = document.getElementById('bestscore');
 				setBestScore(score);
+				bestScoreDiv.style.animationName = 'bestScore';
 			}
 			setScore(0);
 			setClickedCards([]);
+			scoreDiv.style.animationName = 'negative';
 		} else {
 			setClickedCards((clickedCards) => clickedCards.concat(card));
 			setScore((score) => score + 1);
+			scoreDiv.style.animationName = 'positive';
 		}
 	}
 	function shuffle(array) {
@@ -36,13 +41,23 @@ const Playfield = () => {
 		  [copyArray[i], copyArray[j]] = [copyArray[j], copyArray[i]];
 		}
 		return copyArray;
-	  }
+	}
 
+	const [scrollY, setScrollY] = useState(0);
+	useEffect(() => {
+		window.scroll(0, scrollY);
+	});
+
+	function stopAnimation(e) {
+		e.target.style.animationName = 'none';
+	}
 
 	return (
 		<main>
-			<Score score={score} />
-			<BestScore bestScore={bestScore} />
+			<div id='scoreboard'>
+				<Score score={score} stopAnimation={stopAnimation} />
+				<BestScore bestScore={bestScore} stopAnimation={stopAnimation}/>
+			</div>
 			<div id='cards-grid'>
 				{cards.map(card => 
 					<Card key={card.name} id={card.name} card={card} handleClick={handleClick} />

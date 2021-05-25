@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/project-name/static/css/main.d06760f1.chunk.css",
+    "main.js": "/project-name/static/js/main.eca8e25f.chunk.js",
+    "main.js.map": "/project-name/static/js/main.eca8e25f.chunk.js.map",
+    "runtime-main.js": "/project-name/static/js/runtime-main.223bab05.js",
+    "runtime-main.js.map": "/project-name/static/js/runtime-main.223bab05.js.map",
+    "static/js/2.f910e6f2.chunk.js": "/project-name/static/js/2.f910e6f2.chunk.js",
+    "static/js/2.f910e6f2.chunk.js.map": "/project-name/static/js/2.f910e6f2.chunk.js.map",
+    "index.html": "/project-name/index.html",
+    "static/css/main.d06760f1.chunk.css.map": "/project-name/static/css/main.d06760f1.chunk.css.map",
+    "static/js/2.f910e6f2.chunk.js.LICENSE.txt": "/project-name/static/js/2.f910e6f2.chunk.js.LICENSE.txt",
+    "static/media/bono.8a33c3cb.jpg": "/project-name/static/media/bono.8a33c3cb.jpg",
+    "static/media/bowie.2d5ca82c.jpg": "/project-name/static/media/bowie.2d5ca82c.jpg",
+    "static/media/cobain.026f80e8.jpeg": "/project-name/static/media/cobain.026f80e8.jpeg",
+    "static/media/dylan.83aaf957.png": "/project-name/static/media/dylan.83aaf957.png",
+    "static/media/playfield.css": "/project-name/static/media/grey-jean.5f962482.png",
+    "static/media/hendrix.88433be5.jpg": "/project-name/static/media/hendrix.88433be5.jpg",
+    "static/media/jagger.b83bf5a5.jpg": "/project-name/static/media/jagger.b83bf5a5.jpg",
+    "static/media/lennon.868992bf.png": "/project-name/static/media/lennon.868992bf.png",
+    "static/media/morrison.f6c00389.jpg": "/project-name/static/media/morrison.f6c00389.jpg",
+    "static/media/presley.63cec3f9.jpg": "/project-name/static/media/presley.63cec3f9.jpg",
+    "static/media/reed.8436e89d.jpg": "/project-name/static/media/reed.8436e89d.jpg",
+    "static/media/index.css": "/project-name/static/media/towerruinsexpand.e2e88194.ttf",
+    "static/media/springsteen.b373f87d.jpg": "/project-name/static/media/springsteen.b373f87d.jpg",
+    "static/media/yorke.19b643eb.jpeg": "/project-name/static/media/yorke.19b643eb.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.223bab05.js",
+    "static/js/2.f910e6f2.chunk.js",
+    "static/css/main.d06760f1.chunk.css",
+    "static/js/main.eca8e25f.chunk.js"
+  ]
+}

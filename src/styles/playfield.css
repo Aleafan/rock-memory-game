@@ -38,6 +38,5 @@
 @media (max-width: 350px) {
     #scoreboard {
         font-size: 1.1rem;
-        padding: 0 calc((100vw - 100%) / 2);
     }
 }

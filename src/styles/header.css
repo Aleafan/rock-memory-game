@@ -1,0 +1,28 @@
+header h1 {
+    font-size: 2.8rem;
+    margin: 1rem 0;
+}
+.fa-guitar {
+    margin-right: 0.4rem;
+    vertical-align: text-top;
+}
+.fa-compact-disc {
+    vertical-align: text-top;
+}
+@media (max-width: 620px) {
+    header h1 {
+        font-size: 1.85rem;
+        margin: 1rem -8px;
+    }
+    .fa-guitar {
+        margin-right: 0.2rem;
+    }
+    header > p {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 350px) {
+    header h1 {
+        font-size: 1.68rem;
+    }
+}

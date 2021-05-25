@@ -1,4 +1,13 @@
 footer {
     text-align: start;
-    box-shadow: 0 -2px 2px;
+    box-shadow: 0 -2px;
+}
+footer p {
+    margin: 1.5rem 0 0;
+    padding: 2px;
+}
+#copyright {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }

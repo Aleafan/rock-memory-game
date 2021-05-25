@@ -1,15 +1,23 @@
 .card {
-    border: 1px solid;
-    max-width: 250px;
+    border: 1px solid #064773;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: black;
 }
 .card:hover {
     cursor: pointer;
-    box-shadow: 0 0 2px 2px;
+    box-shadow: 0 0 2px 3px whitesmoke;
 }
 .card-pic {
-    width: 100%;
+    max-width: 100%;
+    width: 250px;
     padding: 0.3rem;
 }
 .card p {
     margin: 0.2rem 0 0.5rem;
+}
+@media (max-width: 350px) {
+    .card p {
+        font-size: 0.9rem;
+    }
 }

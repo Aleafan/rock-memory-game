@@ -1,18 +1,38 @@
+@font-face {
+  font-family: 'Tower Ruins Expand';
+  src: url(./fonts/tower-ruins/towerruinsexpand.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Tower Ruins';
+  src: url(./fonts/tower-ruins/towerruins.ttf) format('truetype');
+}
+
 * {
   box-sizing: border-box;
 }
-
+html {
+  color: white;
+  background-color: black;
+  background-image: url("./assets/images/skulls.png");
+}
 body {
   margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Tower Ruins Expand', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  max-width: 1200px;
+  max-width: 1140px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0 20px;
+  overflow-x: hidden;
+}
+@media (max-width: 750px) {
+  body {
+    font-family: 'Tower Ruins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    padding: 0 8px;
+  }
 }
 
 code {

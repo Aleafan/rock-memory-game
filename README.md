@@ -16,4 +16,4 @@ Project is created with:
     
 ## Demo
 
-https://aleafan.github.io/cv-project/
+https://aleafan.github.io/rock-memory-game/

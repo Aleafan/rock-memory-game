@@ -67,8 +67,7 @@ const Playfield = () => {
 				{cards.map(card => <Card key={card.name} 
 						  				 id={card.name} 
 										 card={card} 
-										 handleClick={handleClick}
-										 stopAnimation={stopAnimation} />
+										 handleClick={handleClick} />
 				)}
 			</div>
 		</main>

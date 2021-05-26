@@ -16,6 +16,7 @@
     border-radius: 3px;
     background-color: #064773;
     background-image: url("../assets/images/grey-jean.png");
+    z-index: 100;
 }
 #scoreboard p {
     margin: 0.5rem 0;

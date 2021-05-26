@@ -48,6 +48,11 @@ const Playfield = () => {
 		window.scroll(0, scrollY);
 	});
 
+	const cardsDiv = document.querySelectorAll('.card');
+	useEffect(() => {
+		cardsDiv.forEach(card => card.style.animationName = 'showUp');
+	});
+
 	function stopAnimation(e) {
 		e.target.style.animationName = 'none';
 	}
@@ -59,8 +64,11 @@ const Playfield = () => {
 				<BestScore bestScore={bestScore} stopAnimation={stopAnimation}/>
 			</div>
 			<div id='cards-grid'>
-				{cards.map(card => 
-					<Card key={card.name} id={card.name} card={card} handleClick={handleClick} />
+				{cards.map(card => <Card key={card.name} 
+						  				 id={card.name} 
+										 card={card} 
+										 handleClick={handleClick}
+										 stopAnimation={stopAnimation} />
 				)}
 			</div>
 		</main>

@@ -48,11 +48,6 @@ const Playfield = () => {
 		window.scroll(0, scrollY);
 	});
 
-	const cardsDiv = document.querySelectorAll('.card');
-	useEffect(() => {
-		cardsDiv.forEach(card => card.style.animationName = 'showUp');
-	});
-
 	function stopAnimation(e) {
 		e.target.style.animationName = 'none';
 	}

@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/rock-memory-game/static/css/main.91bf9119.chunk.css",
-    "main.js": "/rock-memory-game/static/js/main.26ee0cb0.chunk.js",
-    "main.js.map": "/rock-memory-game/static/js/main.26ee0cb0.chunk.js.map",
+    "main.css": "/rock-memory-game/static/css/main.48d73bc0.chunk.css",
+    "main.js": "/rock-memory-game/static/js/main.eca8e25f.chunk.js",
+    "main.js.map": "/rock-memory-game/static/js/main.eca8e25f.chunk.js.map",
     "runtime-main.js": "/rock-memory-game/static/js/runtime-main.78d30da2.js",
     "runtime-main.js.map": "/rock-memory-game/static/js/runtime-main.78d30da2.js.map",
     "static/js/2.f910e6f2.chunk.js": "/rock-memory-game/static/js/2.f910e6f2.chunk.js",
     "static/js/2.f910e6f2.chunk.js.map": "/rock-memory-game/static/js/2.f910e6f2.chunk.js.map",
     "index.html": "/rock-memory-game/index.html",
-    "static/css/main.91bf9119.chunk.css.map": "/rock-memory-game/static/css/main.91bf9119.chunk.css.map",
+    "static/css/main.48d73bc0.chunk.css.map": "/rock-memory-game/static/css/main.48d73bc0.chunk.css.map",
     "static/js/2.f910e6f2.chunk.js.LICENSE.txt": "/rock-memory-game/static/js/2.f910e6f2.chunk.js.LICENSE.txt",
     "static/media/bono.8a33c3cb.jpg": "/rock-memory-game/static/media/bono.8a33c3cb.jpg",
     "static/media/bowie.2d5ca82c.jpg": "/rock-memory-game/static/media/bowie.2d5ca82c.jpg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.78d30da2.js",
     "static/js/2.f910e6f2.chunk.js",
-    "static/css/main.91bf9119.chunk.css",
-    "static/js/main.26ee0cb0.chunk.js"
+    "static/css/main.48d73bc0.chunk.css",
+    "static/js/main.eca8e25f.chunk.js"
   ]
 }

@@ -38,6 +38,8 @@
 @media (max-width: 350px) {
     #scoreboard {
         font-size: 1.1rem;
+    }
+    #cards-grid {
         grid-gap: 3px;
     }
 }

@@ -36,11 +36,6 @@ body {
 }
 @media (max-width: 350px) {
   body {
-    padding: 0;
+    padding: 2px;
   }
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

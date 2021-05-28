@@ -1,14 +1,14 @@
-#scoreboard svg {
-    color: goldenrod;
-    margin-right: 4px;
-    vertical-align: baseline;
-}
 #bestscore {
     font-weight: bold;
     padding: 3px;
     animation-iteration-count: infinite;
     animation-duration: 3s;
     border-radius: 5px;
+}
+.fa-trophy {
+    color: goldenrod;
+    margin-right: 4px;
+    vertical-align: baseline;
 }
 @keyframes bestScore {
     25% {

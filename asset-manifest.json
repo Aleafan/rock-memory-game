@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rock-memory-game/static/css/main.182be51e.chunk.css",
-    "main.js": "/rock-memory-game/static/js/main.eca8e25f.chunk.js",
-    "main.js.map": "/rock-memory-game/static/js/main.eca8e25f.chunk.js.map",
+    "main.js": "/rock-memory-game/static/js/main.c3342363.chunk.js",
+    "main.js.map": "/rock-memory-game/static/js/main.c3342363.chunk.js.map",
     "runtime-main.js": "/rock-memory-game/static/js/runtime-main.78d30da2.js",
     "runtime-main.js.map": "/rock-memory-game/static/js/runtime-main.78d30da2.js.map",
     "static/js/2.f910e6f2.chunk.js": "/rock-memory-game/static/js/2.f910e6f2.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.78d30da2.js",
     "static/js/2.f910e6f2.chunk.js",
     "static/css/main.182be51e.chunk.css",
-    "static/js/main.eca8e25f.chunk.js"
+    "static/js/main.c3342363.chunk.js"
   ]
 }

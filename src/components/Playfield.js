@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useLayoutEffect } from 'react';
 import { data } from '../data.js';
 import '../styles/playfield.css';
 
@@ -44,7 +44,7 @@ const Playfield = () => {
 	}
 
 	const [scrollY, setScrollY] = useState(0);
-	useEffect(() => {
+	useLayoutEffect(() => {
 		window.scroll(0, scrollY);
 	});
 
